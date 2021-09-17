@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &7428586278548905119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7223277150680655169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f1751d1c22b1cb40b806267a5dfae7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: MyWEp
+  ItemDescription: LolPenis
+  myColor: {r: 1, g: 0, b: 0, a: 0}
+  dmg: 25
+  hp: 0
+  def: 0
+--- !u!1001 &7544894327094159016
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 903786627464856553, guid: 08d5ec2bbccfe9a4290e6bed644e0b43,
+        type: 3}
+      propertyPath: m_Name
+      value: Weapon-Sword Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 907715459948697889, guid: 08d5ec2bbccfe9a4290e6bed644e0b43,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.129
+      objectReference: {fileID: 0}
+    - target: {fileID: 907715459948697889, guid: 08d5ec2bbccfe9a4290e6bed644e0b43,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 907715459948697889, guid: 08d5ec2bbccfe9a4290e6bed644e0b43,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 907715459948697889, guid: 08d5ec2bbccfe9a4290e6bed644e0b43,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 907715459948697889, guid: 08d5ec2bbccfe9a4290e6bed644e0b43,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 907715459948697889, guid: 08d5ec2bbccfe9a4290e6bed644e0b43,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 907715459948697889, guid: 08d5ec2bbccfe9a4290e6bed644e0b43,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 907715459948697889, guid: 08d5ec2bbccfe9a4290e6bed644e0b43,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 907715459948697889, guid: 08d5ec2bbccfe9a4290e6bed644e0b43,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 907715459948697889, guid: 08d5ec2bbccfe9a4290e6bed644e0b43,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 907715459948697889, guid: 08d5ec2bbccfe9a4290e6bed644e0b43,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9159836176562118626, guid: 08d5ec2bbccfe9a4290e6bed644e0b43,
+        type: 3}
+      propertyPath: myColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9159836176562118626, guid: 08d5ec2bbccfe9a4290e6bed644e0b43,
+        type: 3}
+      propertyPath: myColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9159836176562118626, guid: 08d5ec2bbccfe9a4290e6bed644e0b43,
+        type: 3}
+      propertyPath: myColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9159836176562118626, guid: 08d5ec2bbccfe9a4290e6bed644e0b43,
+        type: 3}
+      propertyPath: Name
+      value: item1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9159836176562118626, guid: 08d5ec2bbccfe9a4290e6bed644e0b43,
+        type: 3}
+      propertyPath: ItemDescription
+      value: item1 test
+      objectReference: {fileID: 0}
+    - target: {fileID: 9159836176562118626, guid: 08d5ec2bbccfe9a4290e6bed644e0b43,
+        type: 3}
+      propertyPath: dmg
+      value: 20
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 9159836176562118626, guid: 08d5ec2bbccfe9a4290e6bed644e0b43, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 08d5ec2bbccfe9a4290e6bed644e0b43, type: 3}
+--- !u!1 &7223277150680655169 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 903786627464856553, guid: 08d5ec2bbccfe9a4290e6bed644e0b43,
+    type: 3}
+  m_PrefabInstance: {fileID: 7544894327094159016}
+  m_PrefabAsset: {fileID: 0}
