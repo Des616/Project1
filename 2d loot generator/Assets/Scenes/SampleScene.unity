@@ -667,6 +667,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 066cc7941702be2409b4c86b8dac4ea9,
         type: 3}
+    - target: {fileID: 8666352062899522603, guid: 6877fb649746c674d8fbbcf60d41892b,
+        type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 1270129541}
     - target: {fileID: 8810154704023097585, guid: 6877fb649746c674d8fbbcf60d41892b,
         type: 3}
       propertyPath: speed
@@ -761,6 +766,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1270129541 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1559754614193064, guid: 6877fb649746c674d8fbbcf60d41892b,
+    type: 3}
+  m_PrefabInstance: {fileID: 808763062}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1895879465
 GameObject:
   m_ObjectHideFlags: 0
