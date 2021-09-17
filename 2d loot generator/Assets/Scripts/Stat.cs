@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Stat : MonoBehaviour
 {
-    public float baseValue;
+    protected float baseValue; //shouldnt be changed once set
     public float currentValue;
     public Stat(float bValue){
         baseValue = bValue;
@@ -29,6 +29,9 @@ public class Stat : MonoBehaviour
 
     public float GetValue(){
         return currentValue;
+    }
+    public float GetBaseValue(){
+        return baseValue;
     }
 
 }

@@ -15,8 +15,8 @@ public class PlayerManager : MonoBehaviour
 
     [Header("Equipments")]
 
-    public GameObject weapon;
-    public GameObject helmet;
+    public GameObject weaponSlot;
+    public GameObject helmetSlot;
 
     void Awake(){
         void Awake(){
@@ -49,21 +49,16 @@ public class PlayerManager : MonoBehaviour
     }
 
     public void EquipWeapon(GameObject weaponToEquip){
-        GameObject myWep = weapon.transform.GetChild(0).gameObject;
+        GameObject myWep = weaponSlot.transform.GetChild(0).gameObject;
         if(myWep != null){
             Destroy(myWep);
         }
         else{
-           
         }
-        
-        
     }
 
     public void UpdateCharacterStats(){
-        Damage.SetValue(weapon.transform.GetChild(0).GetComponent<Equipment>().GetEquipDamge());
-        Debug.Log(Damage.GetValue());
-        
+        Damage.SetValue(weaponSlot.transform.GetChild(0).GetComponent<Equipment>().GetEquipDamge());
     }
 
 
